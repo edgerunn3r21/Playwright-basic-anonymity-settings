@@ -12,7 +12,7 @@ client = primp.Client(impersonate=choosen_version, impersonate_os="windows")
 user_agent = client.headers["user-agent"]
 
 launch_args = [
-    "--disable-blink-freatures=AutomationControlled",
+    "--disable-blink-features=AutomationControlled",
     "--disable-popup-blocking",
     "--disable-default-apps",
 ]
